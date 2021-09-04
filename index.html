@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar grid wide">
+                <div class="row">
+                    <div class="col l-3 m-9 c-11">
+                        <div class="logo">Restaurantly</div>
+                    </div>
+                    <label for="nav-mobile-input"for="nav-mobile-input">
+                        <i class="l-0 m-2 c-1 fas fa-bars" id="check" style="color: #fff;"></i>
+                    </label>
+                    <div class="col l-7 m-0 c-0">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Menu</a></li>
+                                <li><a href="">Specials</a></li>
+                                <li><a href="">Events</a></li>
+                                <li><a href="">Chefs</a></li>
+                                <li><a href="">Galerry</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-0 c-0">
+                        <a id="book">Book now</a>
+                    </div>
+               </div>
+            </div>
+        </header>
+        <input type="checkbox" hidden class="nav__input" id="nav-mobile-input">
+        <label for="nav-mobile-input" class="over_lay"></label>
+        <div class="nav_mobile">
+            <label for="nav-mobile-input" class="nav_mobile_close"><i class="close fas fa-times"></i></label>
+            <ul class="nav_mobile_list">
+                <li><i class="icon fas fa-home"></i><a class="nav_mobile_link" href="">Home</a></li>
+                <li><i class="icon fas fa-user"></i><a class="nav_mobile_link" href="">About</a></li>
+                <li><i class="icon fas fa-image"></i><a class="nav_mobile_link" href="">Menu</a></li>
+                <li><i class="icon fas fa-address-book"></i><a class="nav_mobile_link" href="">Specials</a></li>
+                <li><i class="icon fas fa-address-book"></i><a class="nav_mobile_link" href="">Chefsmn </a></li>
+            </ul>
+        </div>
+        <main>
+            <div class="banner">
+                <div class="row">
+                    <div class="banner-text col l-12 m-12 c-12">
+                        <h1 id="title" style="font-size: 50px;margin-bottom: 20px; color: #fff;">Welcome to <span style="color: rgb(248, 220, 117);">Restaurantly</span></h1>
+                        <span id="sub-title">Delivering great food for more than 18 years!</span><br>
+                        <a class="ourmenu" id="a">Our menu</a>
+                        <a class="ourmenu" id="a">Book table</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-bannerr" style=" background-color: rgba(0, 0, 0, 0.3);">
+                <div class="row grid wide">
+                    <div class="text-banner_sub col l-6 m-12 c-12">
+                        <h3 id="top">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <ul style="list-style: none;">
+                            <li><i class="check far fa-check-circle"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="check far fa-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li><i class="check far fa-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                        </ul>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="bot-banner col l-6 m-12 c-12">
+                        <img src="./img/about.jpg" alt="" id="bot-banner">
+                    </div>
+                </div>
+            </div>
+            <div class="reason">
+                <div class="">
+                    <div class="why grid wide">
+                        <div class="why-icon">
+                            
+                            <h2 id="why">Why Us</h2>
+                            <hr style="width: 150px;height: 0.5px; background-color: #fff; margin-left: 70px;margin-top: -7px;">
+                            
+                        </div>
+                        <h1 id="list">Why Choose Our Restaurant</h1>
+                    </div>
+                </div>
+                <div class="row grid wide">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="box">
+                            <span>01</span>
+                            <h4>Restaurant Location</h4>
+                            <p>Location is nearly as important as the quality of your food to new customers. No matter how good your food tastes, if you are too far away, new customers will not come over.</p>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="box">
+                            <span>02</span>
+                            <h4>Customer Reviews</h4>
+                            <p>Seeing how important customer reviews are, you should map out a strategy to get your customers to leave you reviews. Moreover, you need to actively publicize your positive reviews</p>
+                          </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="box">
+                            <span>03</span>
+                            <h4>Restaurant Ambience</h4>
+                            <p>The atmosphere, or ambience, of your restaurant matters a lot. You can have the most mouth-watering meals on the planet, if the atmosphere in your restaurant isn’t conducive</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-menu">
+                <div class="">
+                    <div class="why grid wide">
+                        <div class="why-icon">
+                            
+                            <h2 id="why">MENU</h2>
+                            <hr style="width: 150px;height: 0.5px; background-color: #fff; margin-left: 70px;margin-top: -7px;">
+                            
+                        </div>
+                        <h1 id="list">Check Our Tasty Menu</h1>
+                    </div>
+                </div>
+                
+                <div class="dish grid wide">
+                    <div class="row">
+                        <div class="menu-dishes col l-12 m-12 c-12">
+                            <ul>
+                                <li><a href=""  style="color:#CDA45E;">All</a></li>
+                                <li><a href="">Started</a></li>
+                                <li><a href="">Salad</a></li>
+                                <li><a href="">Specialty</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="name">
+                    <div class="row grid wide">
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/lobster-bisque.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Lobster Bisque</p>
+                                    <span>Lorem, deren, trataro, filede, nerada</span><br>
+                                    <span>$5.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/bread-barrel.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Bread Barrel</p>
+                                    <span>Lorem, deren, trataro, filede, nerada</span><br>
+                                    <span>$6.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/cake.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Crab Cake</p>
+                                    <span>Lorem, deren, trataro, filede, nerada </span><br>
+                                    <span>$7.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/greek-salad.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Lobster Bisque</p>
+                                    <span>Lorem, deren, trataro, filede, nerada</span><br>
+                                    <span>$5.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/caesar.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Caesar Selections</p>
+                                    <span>Lorem, deren, trataro, filede, nerada</span><br>
+                                    <span>$8.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/tuscan-grilled.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Tuscan Grilled</p>
+                                    <span>Lorem, deren, trataro, filede, nerada</span><br>
+                                    <span>$9.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/mozzarella.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Mozzarella Stick</p>
+                                    <span>Lorem, deren, trataro, filede, nerada</span><br>
+                                    <span>$5.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-dishes col l-6">
+                            <div class="product">
+                                <img src="./img/menu/spinach-salad.jpg" alt="">
+                                <div class="product-text">
+                                    <p id="p">Lobster Bisque</p>
+                                    <span>Lorem, deren, trataro, filede, nerada</span><br>
+                                    <span>$9.95</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="event">
+                <div class="">
+                    <div class="why grid wide">
+                        <div class="why-icon">
+                            
+                            <h2 id="why">EVENTS</h2>
+                            <hr style="width: 150px;height: 0.5px; background-color: #fff; margin-left: 70px;margin-top: -7px;">
+                            
+                        </div>
+                        <h1 id="list">Organize Your Events in our Restaurant</h1>
+                    </div>
+                </div>
+                
+                <div class="row grid wide">
+                    <div class="bot-banner col l-6 m-12 c-12">
+                        <img src="./img/event-custom.jpg" alt="" id="bot-banner">
+                    </div>
+                    <div class="text-banner_sub col l-6 m-12 c-12" id="">
+                        <h3 id="top">Custom party</h3>
+                        <h3 id="top">$99</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <ul style="list-style: none;">
+                            <li>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </li>
+                            <li>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </li>
+                            <li>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </li>
+                        </ul>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="whyy">
+                <div class="why row grid wide">
+                    <div class="logo-footer col l-3 m-6 c-12">
+                        <div class="head">
+                            <p>Restauranly</p>
+                        </div>
+                        <div class="medium">
+                            <p>A108 Adam Street</p>
+                            <p>NY 535022, USA</p>
+                            <p>Phone: 0985738577</p>
+                        </div>
+                        <div class="icon">
+                            <i class="iconn fab fa-facebook"></i>
+                            <i class="iconn fab fa-twitter"></i>
+                            <i class="iconn fab fa-instagram"></i>
+                            <i class="iconn fab fa-skype"></i>
+                            <i class="iconn fab fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="links col l-3 m-6 c-12">
+                        <span>Userful link</span>
+                        <ul>
+                            <li><a href=""><i class="fot-icon fas fa-chevron-right"></i>Home</a></li>
+                            <li><a href=""><i class="fot-icon  fas fa-chevron-right"></i>About Us</a></li>
+                            <li><a href=""><i class="fot-icon  fas fa-chevron-right"></i>Service</a></li>
+                            <li><a href=""><i class="fot-icon  fas fa-chevron-right"></i>Terms of service</a></li>
+                            <li><a href=""><i class="fot-icon fas fa-chevron-right"></i>Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="links col l-3 m-6 c-12">
+                        <span style="padding-bottom: 5px;">Our Service</span>
+                        <ul>
+                            <li><a href=""><i class="fot-icon fas fa-chevron-right"></i>Web Design</a></li>
+                            <li><a href=""><i class="fot-icon  fas fa-chevron-right"></i>Web Development</a></li>
+                            <li><a href=""><i class="fot-icon  fas fa-chevron-right"></i>Product Management</a></li>
+                            <li><a href=""><i class="fot-icon  fas fa-chevron-right"></i>Marketing</a></li>
+                            <li><a href=""><i class="fot-icon fas fa-chevron-right"></i>Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="search col l-3 m-6 c-12">
+                        <span>Our Newsletter</span>
+                        <div class="subcri">
+                            <p id="cri">Tamen quem nulla quae legam multos aute sint culpa<br> legam noster magna</p>
+                            <input type="text" id="input" placeholder="Enter your email"><button class="last">Subcribe</button>
+                        </div>
+                    </div>  
+                </div><hr>
+                <div class="sub-foot row">
+                    <div class="fot col l-12 m-12 c-12">
+                        <p>© Copyright Restaurantly. All Rights Reserved</p>
+                        <span>Designed by Bui Viet Toai</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
